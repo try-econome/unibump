@@ -1,0 +1,1 @@
+[{"name":"$callQueue","description":"Manages and sends bump payloads to a set of channels.","version":"1.0.0","brackets":false,"unwrap":true,"args":[{"name":"channels","description":"A list of channel IDs where the bump payload should be sent.","type":"String","required":true,"rest":false}]}]
