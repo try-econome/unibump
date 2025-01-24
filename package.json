@@ -1,0 +1,21 @@
+{
+    "name": "uni-bump",
+    "version": "1.0.3",
+    "main": "dist/index.js",
+    "scripts": {
+        "docgen": "tsc && typedoc src/index.ts && node dist/docgen",
+        "test": "tsc && echo Done Compiling! && node dist/__tests__/index.js"
+    },
+    "author": "Project-Econome",
+    "license": "GPL-3.0",
+    "description": "",
+    "devDependencies": {
+        "@tryforge/forgescript": "^2.0.0",
+        "@types/node": "^22.5.0",
+        "typedoc": "^0.26.6",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "uuid": "^11.0.5"
+    }
+}
