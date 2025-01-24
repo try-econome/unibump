@@ -1,5 +1,5 @@
 {
-    "name": "uni-bump",
+    "name": "@econome/unibump",
     "version": "1.0.3",
     "main": "dist/index.js",
     "scripts": {
